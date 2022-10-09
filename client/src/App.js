@@ -24,7 +24,7 @@ componentDidMount() {
   return (
     <div className="App">
       <header className="App-header">
-        GoodThings
+        GoodThings Juan Guerrero 
       </header>
     </div>
     );
