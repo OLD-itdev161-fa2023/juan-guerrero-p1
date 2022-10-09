@@ -1,21 +1,21 @@
 import mongoose, { trusted } from "mongoose";
 
-const UserSchema = new mongoose.Schema({
-    name: {
+const TshirtSchema = new mongoose.Schema({
+    size: {
         type: String,
         required: true  
     },
-    email: {
+    color: {
         type: String,
         required: true,
         unique: true
     },
-    password: {
+    style: {
         type: String,
         required: true
     }
 });
 
-const User = mongoose.model("user", UserSchema);
+const Tshirt = mongoose.model("tshirt", TshirtSchema);
 
-export default User;
+export default Tshirt;
