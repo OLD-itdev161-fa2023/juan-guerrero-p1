@@ -24,8 +24,19 @@ componentDidMount() {
   return (
     <div className="App">
       <header className="App-header">
-        GoodThings Juan Guerrero 
+        T Shirt Choices 
       </header>
+      <div class="card">
+
+  <h1>T-Shirt</h1>
+  <p class="price">$10.99</p>
+  <p>Choose Color, Style, Size about the T-Shirts ..</p>
+  <p><button>Add to Cart</button></p>
+</div>
+          
+        
+    
+      {this.state.data}
     </div>
     );
   }    
